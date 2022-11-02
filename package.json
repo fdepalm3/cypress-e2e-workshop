@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:hello-world": "cypress run --spec 'cypress/**/**/1-hello-world.cy.js'",
+    "cy:run:locators": "cypress run --spec 'cypress/**/**/2-locators.cy.js'",
+    "cy:run:interactions": "cypress run --spec 'cypress/**/**/3-interactions.cy.js'",
+    "cy:run:assertions": "cypress run --spec 'cypress/**/**/4-assertions.cy.js'",
+    "cy:run:utils": "cypress run --spec 'cypress/**/**/5-utils.cy.js'",
+    "cy:run:request": "cypress run --spec 'cypress/**/**/6-request.cy.js'",
+    "cy:run:juicyshop": "cypress run --spec 'cypress/**/**/juicy-shop.cy.js'"
+  },
+  "dependencies": {
+    "cypress-xpath": "2.0.1",
+    "cypress": "^10.9.0"
+  }
+}
