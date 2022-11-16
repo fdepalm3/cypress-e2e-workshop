@@ -8,7 +8,8 @@
     "cy:run:assertions": "cypress run --spec 'cypress/**/**/4-assertions.cy.js'",
     "cy:run:utils": "cypress run --spec 'cypress/**/**/5-utils.cy.js'",
     "cy:run:request": "cypress run --spec 'cypress/**/**/6-request.cy.js'",
-    "cy:run:juicyshop": "cypress run --spec 'cypress/**/**/juicy-shop.cy.js'"
+    "cy:run:juicyshop": "cypress run --spec 'cypress/**/**/juicy-shop.cy.js'",
+    "cy:run:swaglabs": "cypress run --spec 'cypress/**/**/swaglabs.cy.js'"
   },
   "dependencies": {
     "cypress-xpath": "2.0.1",

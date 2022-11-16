@@ -106,7 +106,7 @@ Command Hover   - https://docs.cypress.io/api/commands/hover
 Command Check   - https://docs.cypress.io/api/commands/check  
 Command Select  - https://docs.cypress.io/api/commands/select  
 
-### Validando de elementos web <a id="10"></a>
+### Validando elementos web <a id="10"></a>
 Ver archivo *4-assertions.cy.js* 
 
 *Más info:*  

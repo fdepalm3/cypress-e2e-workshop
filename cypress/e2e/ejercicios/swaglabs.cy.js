@@ -1,14 +1,6 @@
 //// Importamos cypress
-//// URL: https://demo.owasp-juice.shop/
+//// URL: https://www.saucedemo.com/
 ///<reference types="cypress" />
-
-// Escenario: Alta de nuevo usuario 
-// Dado que un usuario completa el formulario de registro correctamente
-// Cuando el usuario envia el formulario
-// Entonces se crea el usuario nuevo
-describe('Registrar de usuario nuevo', () => {
-
-})
 
 // Escenario: Autenticación correcta de usuario
 // Dadas las credenciales válidas de un usuario
@@ -26,11 +18,11 @@ describe('Autenticación incorrecta de Usuario', () => {
 
 })
 
-// Escenario: Búsqueda de producto
-// Dado que usuario ingresa una palabra
-// Cuando busca la palabra
-// Entonces aparece los productos relacionados a la búsqueda
-describe('Búsqueda de producto', () => {
+// Escenario: Ordenamiento de producto por mayor precio
+// Dado que un usuario se encuentra en la página principal
+// Cuando ordena los productos de mayor a menor precio
+// Entonces los productos se reordenan con el criterio elegido
+describe('Ordenamiento de productos por mayor precio', () => {
 
 })
 
@@ -38,6 +30,14 @@ describe('Búsqueda de producto', () => {
 // Dado que un usuario agrega un producto
 // Cuando ingresa al ver el carrito
 // Entonces puede ver el producto agregado anteriormente
+describe('Agregar producto al carrito de compras', () => {
+
+})
+
+// Escenario: Sumar precio de todos los  productos en el carrito
+// Dado que un usuario tienen más de un producto en el carrito de compras
+// Cuando hace el checkout
+// Entonces el precio total de los item debe ser sumar a la suma de los precios de cada producto
 describe('Agregar producto al carrito de compras', () => {
 
 })
